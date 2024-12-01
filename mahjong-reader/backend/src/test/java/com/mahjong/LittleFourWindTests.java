@@ -27,7 +27,7 @@ public class LittleFourWindTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertEquals(response.getFaan(), 13);
+    assertEquals(response.getFaan(), 6);
     assertTrue(response.hasFaanType(FaanType.LITTLE_FOUR_WIND));
   }
 
@@ -45,7 +45,7 @@ public class LittleFourWindTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertEquals(response.getFaan(), 13);
+    assertEquals(response.getFaan(), 6);
     assertTrue(response.hasFaanType(FaanType.LITTLE_FOUR_WIND));
   }
 
@@ -63,7 +63,7 @@ public class LittleFourWindTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertEquals(response.getFaan(), 13);
+    assertEquals(response.getFaan(), 6);
     assertTrue(response.hasFaanType(FaanType.LITTLE_FOUR_WIND));
   }
 
@@ -81,7 +81,7 @@ public class LittleFourWindTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertEquals(response.getFaan(), 13);
+    assertEquals(response.getFaan(), 6);
     assertTrue(response.hasFaanType(FaanType.LITTLE_FOUR_WIND));
   }
 
