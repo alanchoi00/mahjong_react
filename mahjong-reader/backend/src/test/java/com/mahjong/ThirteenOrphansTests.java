@@ -268,7 +268,7 @@ public class ThirteenOrphansTests {
   @Test
   public void testThirteenOrphansWithMissingTile() throws Exception {
     // Create a sample request
-    String configFile = "./configs/thirteen_orphans_win_noPair.json";
+    String configFile = "./configs/thirteen_orphans_fail_noPair.json";
     ObjectMapper mapper = new ObjectMapper();
     InputStream is = this.getClass().getResourceAsStream(configFile);
     assertNotNull(is, "The configuration file should exist");
