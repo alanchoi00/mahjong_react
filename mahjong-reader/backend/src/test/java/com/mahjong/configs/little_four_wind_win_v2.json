@@ -1,0 +1,22 @@
+{
+  "gong": [
+    "hww"
+  ],
+  "pung": [
+    "hwn",
+    "hwe",
+    "sd2"
+  ],
+  "hand": [
+    "hws",
+    "hws"
+  ],
+  "winMethods": {
+    "selfPick": false,
+    "lastCatch": false,
+    "kong": false,
+    "fullyConcealed": false,
+    "robbingKong": false,
+    "doubleKong": false
+  }
+}
