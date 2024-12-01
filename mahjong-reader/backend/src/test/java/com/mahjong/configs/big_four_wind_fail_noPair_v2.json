@@ -1,0 +1,20 @@
+{
+  "pung": [
+    "hwn",
+    "hwe",
+    "hws",
+    "hww"
+  ],
+  "hand": [
+    "sd9",
+    "sd8"
+  ],
+  "winMethods": {
+    "selfPick": false,
+    "lastCatch": false,
+    "kong": false,
+    "fullyConcealed": false,
+    "robbingKong": false,
+    "doubleKong": false
+  }
+}
