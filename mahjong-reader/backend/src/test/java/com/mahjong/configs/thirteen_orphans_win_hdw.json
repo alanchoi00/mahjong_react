@@ -1,0 +1,27 @@
+{
+  "hand": [
+    "sd1",
+    "sd9",
+    "sb1",
+    "sb9",
+    "sc1",
+    "sc9",
+    "hwe",
+    "hws",
+    "hww",
+    "hwn",
+    "hdr",
+    "hdg",
+    "hdw",
+    "hdw"
+  ],
+  "extraTiles": [],
+  "winMethods": {
+    "selfPick": false,
+    "lastCatch": false,
+    "kong": false,
+    "fullyConcealed": false,
+    "robbingKong": false,
+    "doubleKong": false
+  }
+}

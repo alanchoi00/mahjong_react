@@ -1,6 +1,6 @@
 {
-  "roundWind" : "",
-  "seatWind" : "",
+  "roundWind" : "E",
+  "seatWind" : "E",
   "chow" : [],
   "pung" : [],
   "gong" : [],
