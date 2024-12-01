@@ -27,7 +27,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 13, "Response should include the hand details");
+    assertEquals(response.getFaan(), 13);
     assertTrue(response.hasFaanType(FaanType.THIRTEEN_ORPHANS));
   }
 
@@ -45,7 +45,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 13, "Response should include the hand details");
+    assertEquals(response.getFaan(), 13);
     assertTrue(response.hasFaanType(FaanType.THIRTEEN_ORPHANS));
   }
 
@@ -63,7 +63,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 13, "Response should include the hand details");
+    assertEquals(response.getFaan(), 13);
     assertTrue(response.hasFaanType(FaanType.THIRTEEN_ORPHANS));
   }
 
@@ -81,7 +81,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 13, "Response should include the hand details");
+    assertEquals(response.getFaan(), 13);
     assertTrue(response.hasFaanType(FaanType.THIRTEEN_ORPHANS));
   }
 
@@ -99,7 +99,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 13, "Response should include the hand details");
+    assertEquals(response.getFaan(), 13);
     assertTrue(response.hasFaanType(FaanType.THIRTEEN_ORPHANS));
   }
 
@@ -117,7 +117,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 13, "Response should include the hand details");
+    assertEquals(response.getFaan(), 13);
     assertTrue(response.hasFaanType(FaanType.THIRTEEN_ORPHANS));
   }
 
@@ -135,7 +135,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 13, "Response should include the hand details");
+    assertEquals(response.getFaan(), 13);
     assertTrue(response.hasFaanType(FaanType.THIRTEEN_ORPHANS));
   }
 
@@ -153,7 +153,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 13, "Response should include the hand details");
+    assertEquals(response.getFaan(), 13);
     assertTrue(response.hasFaanType(FaanType.THIRTEEN_ORPHANS));
   }
 
@@ -171,7 +171,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 13, "Response should include the hand details");
+    assertEquals(response.getFaan(), 13);
     assertTrue(response.hasFaanType(FaanType.THIRTEEN_ORPHANS));
   }
 
@@ -189,7 +189,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 13, "Response should include the hand details");
+    assertEquals(response.getFaan(), 13);
     assertTrue(response.hasFaanType(FaanType.THIRTEEN_ORPHANS));
   }
 
@@ -207,7 +207,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 13, "Response should include the hand details");
+    assertEquals(response.getFaan(), 13);
     assertTrue(response.hasFaanType(FaanType.THIRTEEN_ORPHANS));
   }
 
@@ -225,7 +225,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 13, "Response should include the hand details");
+    assertEquals(response.getFaan(), 13);
     assertTrue(response.hasFaanType(FaanType.THIRTEEN_ORPHANS));
   }
 
@@ -243,7 +243,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 13, "Response should include the hand details");
+    assertEquals(response.getFaan(), 13);
     assertTrue(response.hasFaanType(FaanType.THIRTEEN_ORPHANS));
   }
 
@@ -261,7 +261,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 0, "Response should include the hand details");
+    assertEquals(response.getFaan(), 0);
     assertTrue(response.hasFaanType(FaanType.NO_FAAN));
   }
 
@@ -279,7 +279,7 @@ public class ThirteenOrphansTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertTrue(response.getFaan() == 0, "Response should include the hand details");
+    assertEquals(response.getFaan(), 0);
     assertTrue(response.hasFaanType(FaanType.NO_FAAN));
   }
 }
