@@ -14,7 +14,7 @@ import java.io.InputStream;
 public class AllHonoursTests {
 
   @Test
-  public void testBigFourWindWinVariation1() throws Exception {
+  public void testAllHonoursWinVariation1() throws Exception {
     // Create a sample request
     String configFile = "./configs/all_honours_win_v1.json";
     ObjectMapper mapper = new ObjectMapper();
@@ -32,7 +32,7 @@ public class AllHonoursTests {
   }
 
   @Test
-  public void testBigFourWindWinVariation2() throws Exception {
+  public void testAllHonoursWinVariation2() throws Exception {
     // Create a sample request
     String configFile = "./configs/all_honours_win_v2.json";
     ObjectMapper mapper = new ObjectMapper();
@@ -50,7 +50,7 @@ public class AllHonoursTests {
   }
 
   @Test
-  public void testBigFourWindWinVariation3() throws Exception {
+  public void testAllHonoursWinVariation3() throws Exception {
     // Create a sample request
     String configFile = "./configs/all_honours_win_v3.json";
     ObjectMapper mapper = new ObjectMapper();
@@ -68,7 +68,7 @@ public class AllHonoursTests {
   }
 
   @Test
-  public void testBigFourWindFailNoPairVariation1() throws Exception {
+  public void testAllHonoursFailNoPairVariation1() throws Exception {
     // Create a sample request
     String configFile = "./configs/all_honours_fail_noPair_v1.json";
     ObjectMapper mapper = new ObjectMapper();
@@ -86,7 +86,7 @@ public class AllHonoursTests {
   }
 
   @Test
-  public void testBigFourWindFailNoPairVariation2() throws Exception {
+  public void testAllHonoursFailNoPairVariation2() throws Exception {
     // Create a sample request
     String configFile = "./configs/all_honours_fail_noPair_v2.json";
     ObjectMapper mapper = new ObjectMapper();
