@@ -1,0 +1,22 @@
+{
+  "chow": [
+    "sb1"
+  ],
+  "pung": [
+    "hdr",
+    "hdg",
+    "hdw"
+  ],
+  "hand": [
+    "sd5",
+    "sd5"
+  ],
+  "winMethods": {
+    "selfPick": false,
+    "lastCatch": false,
+    "kong": false,
+    "fullyConcealed": false,
+    "robbingKong": false,
+    "doubleKong": false
+  }
+}
