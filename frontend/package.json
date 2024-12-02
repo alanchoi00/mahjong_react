@@ -15,7 +15,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "vite-plugin-base64-import": "^1.0.1",
-    "vite-plugin-fs": "^1.1.0"
+    "vite-plugin-fs": "^0.4.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
