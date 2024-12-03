@@ -1,0 +1,22 @@
+{
+  "gong": [
+    "sd1",
+    "sd2"
+  ],
+  "pung": [
+    "sc3",
+    "sb4"
+  ],
+  "hand": [
+    "sd5",
+    "sd5"
+  ],
+  "winMethods": {
+    "selfPick": false,
+    "lastCatch": false,
+    "kong": false,
+    "fullyConcealed": false,
+    "robbingKong": false,
+    "doubleKong": true
+  }
+}
