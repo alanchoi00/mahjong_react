@@ -1,0 +1,26 @@
+{
+  "hand": [
+    "sc1",
+    "sc5",
+    "sc1",
+    "sc1",
+    "sc9",
+    "sc8",
+    "sc2",
+    "sc9",
+    "sc4",
+    "sc1",
+    "sc6",
+    "sc3",
+    "sc7",
+    "sc9"
+  ],
+  "winMethods": {
+    "selfPick": false,
+    "lastCatch": false,
+    "kong": false,
+    "fullyConcealed": false,
+    "robbingKong": false,
+    "doubleKong": false
+  }
+}
