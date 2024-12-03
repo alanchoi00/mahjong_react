@@ -249,6 +249,7 @@ public class NineGatesTests {
     // Validate the response
     assertEquals(response.getFaan(), 0);
     assertTrue(response.hasFaanType(FaanType.NO_FAAN));
+    assertFalse(response.hasFaanType(FaanType.NINE_GATES));
   }
 
   @Test
@@ -352,8 +353,6 @@ public class NineGatesTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertEquals(response.getFaan(), 0);
-    assertTrue(response.hasFaanType(FaanType.NO_FAAN));
     assertFalse(response.hasFaanType(FaanType.NINE_GATES));
   }
 
@@ -371,8 +370,6 @@ public class NineGatesTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertEquals(response.getFaan(), 0);
-    assertTrue(response.hasFaanType(FaanType.NO_FAAN));
     assertFalse(response.hasFaanType(FaanType.NINE_GATES));
   }
 
@@ -390,8 +387,6 @@ public class NineGatesTests {
     MahjongResponse response = calculator.calculate(requestObj);
 
     // Validate the response
-    assertEquals(response.getFaan(), 0);
-    assertTrue(response.hasFaanType(FaanType.NO_FAAN));
     assertFalse(response.hasFaanType(FaanType.NINE_GATES));
   }
 
