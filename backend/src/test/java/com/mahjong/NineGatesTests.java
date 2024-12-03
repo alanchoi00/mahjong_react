@@ -249,6 +249,7 @@ public class NineGatesTests {
     // Validate the response
     assertEquals(response.getFaan(), 0);
     assertTrue(response.hasFaanType(FaanType.NO_FAAN));
+    assertFalse(response.hasFaanType(FaanType.NINE_GATES));
   }
 
   @Test
