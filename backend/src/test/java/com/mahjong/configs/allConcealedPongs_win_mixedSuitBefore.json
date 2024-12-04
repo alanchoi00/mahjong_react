@@ -1,0 +1,19 @@
+{
+  "pong": [
+    "sd1",
+    "sd2",
+    "sc3",
+    "sb4"
+  ],
+  "hand": [
+    "sd5",
+    "sd5"
+  ],
+  "winMethods": {
+    "selfPick": false,
+    "lastCatch": false,
+    "kong": false,
+    "robbingKong": false,
+    "doubleKong": false
+  }
+}
