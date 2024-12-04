@@ -43,7 +43,7 @@ public class TouchMyselfAfterDoubleGongTests {
   public void testTouchMyselfAfterDoubleGongFailOnlyOneGong() throws Exception {
     // Create a sample request
     String beforeFile = "./configs/touchMyselfAfterDoubleGong_fail_onlyOneGongBefore.json";
-    String afterFile = "./configs/touchMyselfAfterDoubleGong_win_onlyOneGongAfter.json";
+    String afterFile = "./configs/touchMyselfAfterDoubleGong_fail_onlyOneGongAfter.json";
     ObjectMapper mapper = new ObjectMapper();
     InputStream isBefore = this.getClass().getResourceAsStream(beforeFile);
     InputStream isAfter = this.getClass().getResourceAsStream(afterFile);
