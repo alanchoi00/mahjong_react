@@ -14,8 +14,7 @@
   "winMethods": {
     "selfPick": false,
     "lastCatch": false,
-    "kong": false,
-    "fullyConcealed": false,
+"kong": false,
     "robbingKong": false,
     "doubleKong": false
   }
