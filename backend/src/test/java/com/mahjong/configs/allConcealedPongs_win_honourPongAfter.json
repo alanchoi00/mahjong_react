@@ -1,21 +1,20 @@
 {
   "hand": [
-    "sd1",
-    "sd9",
-    "sb1",
-    "sb9",
     "sc1",
-    "sc9",
-    "hwe",
-    "hws",
-    "hww",
-    "hwn",
-    "hdr",
+    "sc1",
+    "sc1",
+    "sc2",
+    "sc2",
+    "sc2",
     "hdg",
-    "hdw",
-    "hdw"
+    "hdg",
+    "hdg",
+    "sb5",
+    "sb6",
+    "sb7",
+    "sc9",
+    "sc9"
   ],
-  "extraTiles": [],
   "winMethods": {
     "selfPick": false,
     "lastCatch": false,

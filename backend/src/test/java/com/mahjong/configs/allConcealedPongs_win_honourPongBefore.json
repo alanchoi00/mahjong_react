@@ -1,21 +1,16 @@
 {
-  "hand": [
-    "sd1",
-    "sd9",
-    "sb1",
-    "sb9",
+  "pong": [
     "sc1",
-    "sc9",
-    "hwe",
-    "hws",
-    "hww",
-    "hwn",
-    "hdr",
-    "hdg",
-    "hdw",
-    "hdw"
+    "sc2",
+    "hdg"
   ],
-  "extraTiles": [],
+  "hand": [
+    "sc5",
+    "sc6",
+    "sc7",
+    "sc9",
+    "sc9"
+  ],
   "winMethods": {
     "selfPick": false,
     "lastCatch": false,

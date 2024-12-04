@@ -5,7 +5,7 @@
   "gong": [
     "hdr"
   ],
-  "pung": [
+  "pong": [
     "hdg",
     "hdw"
   ],
@@ -17,7 +17,6 @@
     "selfPick": false,
     "lastCatch": false,
     "kong": false,
-    "fullyConcealed": false,
     "robbingKong": false,
     "doubleKong": false
   }

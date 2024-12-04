@@ -7,7 +7,7 @@ public class MahjongRequest {
   private String roundWind = "E";
   private String seatWind = "E";
   private List<String> chow = new ArrayList<>();
-  private List<String> pung = new ArrayList<>();
+  private List<String> pong = new ArrayList<>();
   private List<String> gong = new ArrayList<>();
   private List<String> hand = new ArrayList<>();
   private List<String> extraTiles = new ArrayList<>();
@@ -29,12 +29,12 @@ public class MahjongRequest {
     this.chow = chow;
   }
 
-  public List<String> getPung() {
-    return pung;
+  public List<String> getPong() {
+    return pong;
   }
 
-  public void setPung(List<String> pung) {
-    this.pung = pung;
+  public void setPong(List<String> pong) {
+    this.pong = pong;
   }
 
   public List<String> getGong() {

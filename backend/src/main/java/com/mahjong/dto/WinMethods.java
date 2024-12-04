@@ -4,7 +4,6 @@ public class WinMethods {
   private boolean selfPick = false;
   private boolean lastCatch = false;
   private boolean kong = false;
-  private boolean fullyConcealed = false;
   private boolean robbingKong = false;
   private boolean doubleKong = false;
 
@@ -30,14 +29,6 @@ public class WinMethods {
 
   public void setKong(boolean kong) {
     this.kong = kong;
-  }
-
-  public boolean isFullyConcealed() {
-    return fullyConcealed;
-  }
-
-  public void setFullyConcealed(boolean fullyConcealed) {
-    this.fullyConcealed = fullyConcealed;
   }
 
   public boolean isRobbingKong() {

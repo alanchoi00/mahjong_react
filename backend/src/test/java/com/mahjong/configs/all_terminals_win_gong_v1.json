@@ -4,7 +4,7 @@
     "sc9",
     "sb1"
   ],
-  "pung": [
+  "pong": [
     "sb9"
   ],
   "hand": [
@@ -15,7 +15,6 @@
     "selfPick": false,
     "lastCatch": false,
     "kong": false,
-    "fullyConcealed": false,
     "robbingKong": false,
     "doubleKong": false
   }

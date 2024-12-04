@@ -2,7 +2,7 @@
   "roundWind" : "E",
   "seatWind" : "E",
   "chow" : [],
-  "pung" : [],
+  "pong" : [],
   "gong" : [],
   "hand" : [],
   "extraTiles" : [],
@@ -10,7 +10,6 @@
     "selfPick" : false,
     "lastCatch" : false,
     "kong" : false,
-    "fullyConcealed" : false,
     "robbingKong" : false,
     "doubleKong" : false
   }

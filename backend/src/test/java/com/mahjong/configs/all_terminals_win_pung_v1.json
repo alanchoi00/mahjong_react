@@ -1,5 +1,5 @@
 {
-  "pung": [
+  "pong": [
     "sd1",
     "sd9",
     "sc1",
@@ -13,7 +13,6 @@
     "selfPick": false,
     "lastCatch": false,
     "kong": false,
-    "fullyConcealed": false,
     "robbingKong": false,
     "doubleKong": false
   }
