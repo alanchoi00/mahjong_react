@@ -4,10 +4,8 @@ import Header from "./components/Header";
 import UploadCard from "./components/UploadCard";
 import ResultCard from "./components/ResultCard";
 import axios from 'axios';
-import roboflowConfig from '../config/roboflow_config.json';
-import { supabase } from '../config/supabaseClient';
 import { v4 as uuidv4 } from "uuid";
-
+import {createClient} from '@supabase/supabase-js';
 
 interface Detection {
   x: number;
@@ -22,6 +20,7 @@ interface Detection {
 
 export type Results = Detection[];
 
+export const supabase = createClient(import.meta.env.VITE_SUPABASE_URL, import.meta.env.VITE_SUPABASE_ANON_KEY);
 
 function App() {
   const [file, setFile] = useState<File | null>(null);
@@ -111,9 +110,9 @@ function App() {
     try {
       const response = await axios({
         method: "POST",
-        url: `https://detect.roboflow.com/${roboflowConfig.ROBOFLOW_MODEL}`,
+        url: `https://detect.roboflow.com/${import.meta.env.VITE_ROBOFLOW_MODEL}`,
         params: {
-          api_key: roboflowConfig.ROBOFLOW_API_KEY,
+          api_key: import.meta.env.VITE_ROBOFLOW_API_KEY,
         },
         data: image,
         headers: {
