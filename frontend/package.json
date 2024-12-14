@@ -12,6 +12,7 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.47.7",
     "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
     "fs": "^0.0.1-security",
     "react": "^18.3.1",
