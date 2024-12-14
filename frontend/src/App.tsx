@@ -37,7 +37,7 @@ function App() {
     try {
       const fileId = uuidv4();
       const uploadPath = `public/${fileId}.jpg`;
-      const { data, error } = await supabase.storage
+      const { error } = await supabase.storage
         .from('image_uploads')
         .upload(uploadPath, file, {
           cacheControl: '3600',

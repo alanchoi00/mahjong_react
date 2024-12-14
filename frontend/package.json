@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.47.7",
+    "axios": "^1.7.9",
     "bootstrap-icons": "^1.11.3",
     "fs": "^0.0.1-security",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "uuid": "^11.0.3",
     "vite-plugin-base64-import": "^1.0.1",
     "vite-plugin-fs": "^0.4.4"
   },
